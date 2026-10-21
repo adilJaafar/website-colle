@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Plan flights, stays and getaways with Wanderly Travel.">
+    <title>Plan your trip | Wanderly Travel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+      <div class="container">
+        <a class="navbar-brand logo" href="wanderly.html">
+          <img src="wanderly-logo.svg" alt="Wanderly Travel logo">
+          <span>Wanderly Travel</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks" aria-controls="navLinks" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="explore.html">Explore</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="book.html">Book</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="rewards.html">Rewards Club</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="help.html">Help</a>
+            </li>
+          </ul>
+          <div class="nav-buttons d-flex align-items-center gap-2">
+            <a class="search-link" href="#" aria-label="Search">
+              <i class="bi bi-search"></i>
+            </a>
+            <span class="language">EN</span>
+            <a class="btn btn-outline-main btn-sm" href="rewards.html">Log in</a>
+            <a class="btn btn-main btn-sm" href="rewards.html">Sign up</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <header class="banner">
+        <div class="container">
+          <p class="sub-title text-white">MAKE IT YOURS</p>
+          <h1>Plan your trip</h1>
+          <p>From the first idea to the details that make it yours.</p>
+        </div>
+      </header>
+      <section class="section pb-0">
+        <div class="container">
+          <div class="row g-3 service-grid">
+            <div class="col-6 col-lg-3">
+              <a href="#bookingRequest" class="service">
+                <i class="bi bi-airplane"></i>
+                <h2>Flights</h2>
+                <span>Find your way there</span>
+              </a>
+            </div>
+            <div class="col-6 col-lg-3">
+              <a href="#bookingRequest" class="service">
+                <i class="bi bi-buildings"></i>
+                <h2>Hotels</h2>
+                <span>Stay somewhere special</span>
+              </a>
+            </div>
+            <div class="col-6 col-lg-3">
+              <a href="#bookingRequest" class="service">
+                <i class="bi bi-car-front"></i>
+                <h2>Car rentals</h2>
+                <span>Take the scenic route</span>
+              </a>
+            </div>
+            <div class="col-6 col-lg-3">
+              <a href="#bookingRequest" class="service">
+                <i class="bi bi-shield-check"></i>
+                <h2>Travel insurance</h2>
+                <span>Travel with confidence</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <div class="heading">
+            <p class="sub-title">READY-MADE INSPIRATION</p>
+            <h2>Find a package for your next getaway</h2>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+              <article class="card package h-100">
+                <img src="https://picsum.photos/seed/cityescape/800/500" class="card-img-top" alt="City rooftops and streets in warm evening light">
+                <div class="card-body">
+                  <span class="badge badge-light-custom mb-2">CITY ESCAPE</span>
+                  <h3 class="h5">A weekend in Paris</h3>
+                  <p>3 days · From $499 per person</p>
+                  <ul class="package-list">
+                    <li>
+                      <i class="bi bi-check-circle-fill"></i>
+                      Boutique hotel stay
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill"></i>
+                      Daily breakfast
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill"></i>
+                      Guided city walk
+                    </li>
+                  </ul>
+                  <a href="#bookingRequest" class="btn btn-main">Book now</a>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <article class="card package h-100">
+                <img src="https://picsum.photos/seed/islandretreat/800/500" class="card-img-top" alt="Palm trees beside a peaceful island beach">
+                <div class="card-body">
+                  <span class="badge badge-light-custom mb-2">ISLAND RETREAT</span>
+                  <h3 class="h5">Bali by the sea</h3>
+                  <p>7 days · From $1,299 per person</p>
+                  <ul class="package-list">
+                    <li>
+                      <i class="bi bi-check-circle-fill"></i>
+                      Beach resort stay
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill"></i>
+                      Airport transfers
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill"></i>
+                      Island day trip
+                    </li>
+                  </ul>
+                  <a href="#bookingRequest" class="btn btn-main">Book now</a>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <article class="card package h-100">
+                <img src="https://picsum.photos/seed/desertsafari/800/500" class="card-img-top" alt="Desert dunes in soft golden sunlight">
+                <div class="card-body">
+                  <span class="badge badge-light-custom mb-2">CULTURE &amp; COLOUR</span>
+                  <h3 class="h5">Morocco discovery</h3>
+                  <p>6 days · From $899 per person</p>
+                  <ul class="package-list">
+                    <li>
+                      <i class="bi bi-check-circle-fill"></i>
+                      Riad accommodation
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill"></i>
+                      Breakfast included
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill"></i>
+                      Medina experience
+                    </li>
+                  </ul>
+                  <a href="#bookingRequest" class="btn btn-main">Book now</a>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <article class="card package h-100">
+                <img src="https://picsum.photos/seed/alpinelake/800/500" class="card-img-top" alt="Mountain lake surrounded by green alpine peaks">
+                <div class="card-body">
+                  <span class="badge badge-light-custom mb-2">OUTDOOR ESCAPE</span>
+                  <h3 class="h5">Alpine lake getaway</h3>
+                  <p>5 days · From $749 per person</p>
+                  <ul class="package-list">
+                    <li>
+                      <i class="bi bi-check-circle-fill"></i>
+                      Scenic lodge stay
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill"></i>
+                      Breakfast each day
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill"></i>
+                      Guided nature hike
+                    </li>
+                  </ul>
+                  <a href="#bookingRequest" class="btn btn-main">Book now</a>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <article class="card package h-100">
+                <img src="https://picsum.photos/seed/tokyoexperience/800/500" class="card-img-top" alt="Tokyo streets filled with color and character">
+                <div class="card-body">
+                  <span class="badge badge-light-custom mb-2">CITY &amp; CULTURE</span>
+                  <h3 class="h5">Tokyo your way</h3>
+                  <p>6 days · From $1,099 per person</p>
+                  <ul class="package-list">
+                    <li>
+                      <i class="bi bi-check-circle-fill"></i>
+                      Central hotel stay
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill"></i>
+                      Transit pass
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill"></i>
+                      Food tour experience
+                    </li>
+                  </ul>
+                  <a href="#bookingRequest" class="btn btn-main">Book now</a>
+                </div>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <article class="card package h-100">
+                <img src="https://picsum.photos/seed/coastdrive/800/500" class="card-img-top" alt="Beautiful coastal road with ocean views">
+                <div class="card-body">
+                  <span class="badge badge-light-custom mb-2">ROAD TRIP</span>
+                  <h3 class="h5">California coast drive</h3>
+                  <p>8 days · From $1,499 per person</p>
+                  <ul class="package-list">
+                    <li>
+                      <i class="bi bi-check-circle-fill"></i>
+                      Hand-picked stays
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill"></i>
+                      Rental car included
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle-fill"></i>
+                      Flexible itinerary
+                    </li>
+                  </ul>
+                  <a href="#bookingRequest" class="btn btn-main">Book now</a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section bg-light-custom" id="bookingRequest">
+        <div class="container form-box">
+          <div class="heading">
+            <p class="sub-title">LET'S GET STARTED</p>
+            <h2>Request a booking</h2>
+            <p>Share a few details and our travel team will help you plan.</p>
+          </div>
+          <form data-validate-form novalidate>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label class="form-label" for="name">Name</label>
+                <input class="form-control" id="name" name="name" required>
+              </div>
+              <div class="col-md-6">
+                <label class="form-label" for="email">Email</label>
+                <input class="form-control" id="email" name="email" type="email" required>
+              </div>
+              <div class="col-md-6">
+                <label class="form-label" for="destination">Destination</label>
+                <select class="form-select" id="destination" name="destination" required>
+                  <option value="">Choose a destination</option>
+                  <option>Paris</option>
+                  <option>Tokyo</option>
+                  <option>Cape Town</option>
+                </select>
+              </div>
+              <div class="col-md-6">
+                <label class="form-label" for="date">Departure date</label>
+                <input class="form-control" id="date" name="departure" type="date" required>
+              </div>
+              <div class="col-12">
+                <button class="btn btn-main" type="submit">Request a booking</button>
+              </div>
+            </div>
+            <div class="form-message" aria-live="polite"></div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2026 ADIL JAAFAR "Wanderly Travel" . All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

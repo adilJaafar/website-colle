@@ -1,0 +1,294 @@
+/* des styles pour sitweb wanderly. */
+:root {
+  --logo: #5c0931;
+  --grey: #5e6a71;
+  --light: #f7f7f7;
+}
+body {
+  color: #29252a;
+  font-family: "Poppins", sans-serif;
+}
+.logo, .simple-link {
+  color: var(--logo);
+}
+.logo {
+  align-items: center;
+  display: inline-flex;
+  font-weight: 700;
+}
+.logo img {
+  height: 32px;
+  margin-right: .5rem;
+  width: 32px;
+}
+.navbar {
+  min-height: 68px;
+}
+.navbar .nav-link.active {
+  color: var(--logo);
+  font-weight: 600;
+}
+.btn-main {
+  background: var(--logo);
+  border-color: var(--logo);
+  color: white;
+}
+.btn-main:hover {
+  background: #430622;
+  color: white;
+}
+.btn-outline-main {
+  border-color: var(--logo);
+  color: var(--logo);
+}
+.btn-outline-main:hover {
+  background: var(--logo);
+  color: white;
+}
+.bg-light-custom {
+  background: var(--light);
+}
+.section {
+  padding: 3.5rem 0;
+}
+.heading {
+  margin-bottom: 1.5rem;
+}
+.heading > p:not(.sub-title), .package p, .highlight-text p {
+  color: var(--grey);
+}
+.sub-title {
+  color: var(--logo);
+  font-size: .75rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.simple-link {
+  font-weight: 600;
+  text-decoration: none;
+}
+.hero {
+  margin-bottom: 3rem;
+  position: relative;
+}
+.hero-photo {
+  height: 560px;
+  object-fit: cover;
+}
+.carousel-item::after {
+  background: linear-gradient(90deg, #0009, transparent);
+  content: "";
+  inset: 0;
+  position: absolute;
+}
+.hero-text {
+  bottom: 24%;
+  left: 10%;
+  text-align: left;
+  z-index: 1;
+}
+.hero-text h1 {
+  font-size: clamp(2rem, 5vw, 4rem);
+}
+.search-box {
+  bottom: -45px;
+  left: 0;
+  position: absolute;
+  right: 0;
+}
+.search-form {
+  background: white;
+  border-radius: 8px;
+  padding: 1.2rem;
+}
+.form-message {
+  margin-top: 1rem;
+}
+.form-message:empty {
+  display: none;
+}
+.form-message .alert {
+  margin-bottom: 0;
+}
+.offer-card {
+  border-radius: 8px;
+  color: white;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+.offer-card::after {
+  background: linear-gradient(transparent, #000b);
+  content: "";
+  inset: 0;
+  position: absolute;
+}
+.offer-card img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+.offer-text {
+  bottom: 0;
+  left: 0;
+  padding: 1.5rem;
+  position: absolute;
+  z-index: 1;
+}
+.place-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 3px 12px #00000012;
+  display: block;
+  height: 100%;
+  overflow: hidden;
+  text-decoration: none;
+}
+.place-card img {
+  height: 180px;
+  object-fit: cover;
+  width: 100%;
+}
+.place-card > div {
+  padding: .9rem;
+}
+.place-card h2, .place-card h3 {
+  color: #29252a;
+  font-size: 1rem;
+}
+.place-card span:not(.badge) {
+  color: var(--grey);
+  font-size: .85rem;
+}
+.place .place-card img {
+  height: 220px;
+}
+.side-photo {
+  border-radius: 8px;
+  max-height: 400px;
+  object-fit: cover;
+  width: 100%;
+}
+.highlight + .highlight {
+  margin-top: 3rem;
+}
+.benefit, .service, .contact, .tier, .step {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 3px 12px #00000012;
+  height: 100%;
+  padding: 1.2rem;
+}
+.benefit {
+  text-align: center;
+}
+.benefit i, .service i {
+  color: var(--logo);
+  font-size: 1.5rem;
+}
+.package {
+  border: 0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.package .card-img-top {
+  height: 190px;
+  object-fit: cover;
+}
+.package-list {
+  padding-left: 1.1rem;
+}
+.package-list i {
+  color: var(--logo);
+}
+.newsletter, .banner {
+  background: var(--logo);
+  color: white;
+}
+.newsletter {
+  padding: 2.5rem 0;
+}
+.banner {
+  padding: 3.5rem 0;
+}
+.banner h1 {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+}
+.banner p:last-child {
+  margin-bottom: 0;
+}
+.filter-btn {
+  border-radius: 20px;
+}
+.service {
+  color: inherit;
+  display: block;
+  text-decoration: none;
+}
+.service h2, .contact h2 {
+  font-size: 1.1rem;
+  margin-top: .7rem;
+}
+.contact p, .step p, .tier ul {
+  color: var(--grey);
+}
+.icon {
+  color: var(--logo);
+  font-size: 1.5rem;
+}
+.featured {
+  border: 2px solid var(--logo);
+}
+.featured > .badge {
+  background: var(--logo);
+  color: white;
+}
+.faq, .form-box {
+  max-width: 850px;
+}
+.accordion-button:not(.collapsed) {
+  background: white;
+  color: var(--logo);
+}
+.form-box form {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+.newsletter .form-label {
+  color: white;
+}
+.footer {
+  background: var(--logo);
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+}
+.footer p {
+  margin: 0;
+}
+@media (max-width: 767px) {
+  .section {
+    padding: 2.5rem 0;
+  }
+  .hero-photo {
+    height: 470px;
+  }
+  .hero-text {
+    bottom: 25%;
+    left: 8%;
+  }
+  .search-box {
+    bottom: -170px;
+    padding: 0 1rem;
+  }
+  .hero {
+    margin-bottom: 11rem;
+  }
+  .place-card img, .place .place-card img {
+    height: 150px;
+  }
+  .offer-card {
+    height: 260px;
+  }
+}
